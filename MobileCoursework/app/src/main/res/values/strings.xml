@@ -1,0 +1,51 @@
+<!--
+Title:       Mobile Coursework
+Student:     Ryan Ballantine
+Student ID:  S1829049
+-->
+<resources>
+    <string name="app_name">MobileCoursework</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_incidents">Current Incidents</string>
+    <string name="menu_roadworks">Roadworks</string>
+    <string name="menu_plannedroadworks">Planned Roadworks</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="welcome_to_roadworks">Welcome to the Roadworks Section</string>
+    <string name="press_to_get_data">Press to get data</string>
+
+    <string name="land_welcome_to_roadworks">Welcome to the Roadworks Section which uses Traffic Scotland Data</string>
+    <string name="land_welcome_to_the_planned_roadworks_section">Welcome to the Planned Roadworks Section which uses Traffic Scotland Data</string>
+    <string name="land_welcome_to_current_incidents_section">Welcome to the Current Incidents Section which uses Traffic Scotland Data</string>
+
+    <string name="traffic_scotland_road_data">Traffic Scotland Road Data</string>
+    <string name="welcome_to_the_planned_roadworks_section">Welcome to the Planned Roadworks Section </string>
+    <string name="welcome_to_current_incidents_section">Welcome to the Current Incidents Section</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="press_to_show_all_on_map">Press to Show All on Map</string>
+    <string name="land_press_to_show_all_on_map">Show List on Map</string>
+    <string name="enter_start_date">Enter Start Date(Format: Mon Jan 13)</string>
+    <string name="enter_end_date">Enter End Date(Format: Mon Jan 13)</string>
+    <string name="land_enter_start_date">Enter Start Date</string>
+    <string name="land_enter_end_date">Enter End Date</string>
+    <string name="enter_location">Enter Location</string>
+
+    <string name="home1">This app was made to obtain and parse an XML RSS Feed from Traffic Scotland and display that information.</string>
+    <string name="home2">The data is parsed using XML Pull parser and displayed in two different ways.The first is using a list view for the three
+    feeds which is shown in the navigation menu opened by pressing the three lines in the top right.</string>
+    <string name="home3">
+        The List Views are also filterable. The Current Incidents are Filterable by the Location while the Roadworks and the Planned Roadworks are Filterable by Location,Start Date and End Date. Start and End Date filters must be entered in the correct format(Mon Jan 01).
+    </string>
+    <string name="home4">
+        On each page it is possible to View the Data in a Google Map. If a List Item is clicked it will show that singular item on a map while if the Show All on Map button is clicked the while list will be added to a map as Markers.
+    </string>
+
+
+</resources>
