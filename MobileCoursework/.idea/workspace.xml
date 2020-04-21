@@ -43,10 +43,10 @@
   </component>
   <component name="ProjectId" id="1aLkcf3jCqtVoNDyoCuzxUnWnIY" />
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_5X_API_29_x86" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-04-20T07:47:43.489Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="23eb16b8c70c7ece" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-04-20T12:39:25.638Z" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -60,6 +60,8 @@
       <recent name="com.rballa201.coursework.mobilecoursework" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rballa201.coursework.mobilecoursework.fragments.plannedroadworks" />
+      <recent name="com.rballa201.coursework.mobilecoursework.RSS" />
       <recent name="com.rballa201.coursework.mobilecoursework.fragments.home" />
       <recent name="com.rballa201.coursework.mobilecoursework.ui.incidents" />
       <recent name="com.rballa201.coursework.mobilecoursework.ui.plannedroadworks" />

@@ -163,7 +163,7 @@ public class RSSParser extends AsyncTask<Void, Void, Boolean> {
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id)
                     {
 
-                        PlannedRoadworksItem data = plannedroadworks.get(position);
+                        PlannedRoadworksItem data = (PlannedRoadworksItem) parent.getItemAtPosition(position);
                         String description = "Start Date: " + data.getStartDate() + "\nFinish Date: " + data.getEndDate()+ "\n" + data.getDelayInfo();
 
                         Intent showMap = new Intent(c, MapsActivity.class);
@@ -270,7 +270,7 @@ public class RSSParser extends AsyncTask<Void, Void, Boolean> {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                        RoadworksItem Rdata = roadworks.get(position);
+                        RoadworksItem Rdata = (RoadworksItem) parent.getItemAtPosition(position);
                         String description = "Start Date: " + Rdata.getStartDate() + "\nFinish Date: " + Rdata.getEndDate()+ "\n" + Rdata.getDelayInfo();
 
                         Intent showMap = new Intent(c, MapsActivity.class);
@@ -383,7 +383,7 @@ public class RSSParser extends AsyncTask<Void, Void, Boolean> {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                        IncidentsItem dataModel = incidents.get(position);
+                        IncidentsItem dataModel = (IncidentsItem) parent.getItemAtPosition(position);
                         Intent showMap = new Intent(c, MapsActivity.class);
                         showMap.putExtra("longitude", dataModel.getCoordinates().longitude);
                         showMap.putExtra("latitude", dataModel.getCoordinates().latitude);
